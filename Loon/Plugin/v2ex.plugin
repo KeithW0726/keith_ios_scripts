@@ -4,9 +4,9 @@
 #!openUrl = updated at 2023/05/25
 
 
-[Script]
-http-request ^https:\/\/www\.v2ex\.com\/mission\/daily script-path=https://raw.githubusercontent.com/KeithW0726/keith_ios_scripts/main/Loon/scripts/v2.cookie.js, tag=v2ex_获取cookies
-
-requires-body = true
 [MITM]
 hostname = *.v2ex.com
+
+[Script]
+http-request ^https:\/\/www\.v2ex\.com\/mission\/daily script-path=https://raw.githubusercontent.com/KeithW0726/keith_ios_scripts/main/Loon/scripts/v2.cookie.js, tag=v2ex_获取cookies
+cron "00 20 08 * * *" script-path=https://raw.githubusercontent.com/KeithW0726/keith_ios_scripts/main/Loon/scripts/v2.checkin.js tag=v2ex_签到脚本
