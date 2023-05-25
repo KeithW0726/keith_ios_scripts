@@ -1,0 +1,12 @@
+#!name = set_v2ex_Cookies
+#!desc = 用来自动提取v2ex的cookie
+#!author = keith
+#!openUrl = updated at 2023/05/25
+
+
+[Script]
+http-response ^https:\/\/www\.v2ex\.com\/mission\/daily script-path = v2ex.cookie.js requires-body = true
+
+
+[MITM]
+hostname = *.v2ex.com
