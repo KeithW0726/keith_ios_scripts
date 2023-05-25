@@ -1,0 +1,12 @@
+#!name = set_cylink_Cookies
+#!desc = 用来自动提取次元链接机场的cookie
+#!author = keith
+#!openUrl = updated at 2023/05/25
+
+
+[MITM]
+hostname = cylink.moe
+
+[Script]
+http-request ^https:\/\/cylink\.moe\/user script-path=2.cookie.js, tag=cylink_获取cookies
+# cron "23 8 * * *" script-path=/v2.checkin.js, timeout=10, img-url=v.square
