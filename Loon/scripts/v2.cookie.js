@@ -8,7 +8,7 @@ function get_cookie(){
     try {
         // 请求头
     const head = $request.headers
-    console.log(`请求头是：${head}`);
+    console.log(head);
     if (cookieVal) {
         let cookie = $peristentStore.write(cookieVal, cookieKey)
         if (cookie) {
@@ -19,7 +19,7 @@ function get_cookie(){
         }
       }
     } catch (err) {
-        console.error(`错误：${err}`);
+        console.log(`错误：${err}`);
     }
     
 }
