@@ -7,10 +7,11 @@ function get_cookie(){
     
     try {
         // 请求头
-    const head = $request.headers
-    console.log(head);
+    // const head = $request.headers
+    // console.log(head);
+    
     if (cookieVal) {
-        let cookie = $peristentStore.write(cookieVal, cookieKey)
+        let cookie = $persistentStore.write(cookieVal, cookieKey)
         if (cookie) {
           let msg = `${cookieName}`
           $notification.post(msg, 'Cookie写入成功', '详见日志')
