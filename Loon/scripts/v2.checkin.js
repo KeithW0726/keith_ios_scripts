@@ -10,19 +10,28 @@ function sign() {
     }
   }
 
+  console.log(`准备检查是否签到过，此次使用的cookie是：${cookieVal}`);
+
   $httpClient.get(prama,(error, response, data) => {
 
-    if (data.indexOf('每日登录奖励已领取') >= 0) {
-      let title = `${cookieName}`
-      let subTitle = `签到结果: 签到跳过`
-      let detail = `今天已经签过了, ${data.match(/已连续登录 (\d+?) 天/)[0]}`
-      console.log(`${title}, ${subTitle}, ${detail}`)
-      $notification.post(title, subTitle, detail)
+    console.log(`检查签到请求返回的data是:`);
+    console.log(data);
 
+    if (data) {
+      if (data.indexOf('每日登录奖励已领取') >= 0) {
+          let title = `${cookieName}`
+          let subTitle = `签到结果: 签到跳过`
+          let detail = `今天已经签过了, ${data.match(/已连续登录 (\d+?) 天/)[0]}`
+          console.log(`${title}, ${subTitle}, ${detail}`)
+          $notification.post(title, subTitle, detail)
+      } else {
+        signMission(data.match(/<input[^>]*\/mission\/daily\/redeem\?once=(\d+)[^>]*>/)[1])
+      }
     } else {
-      signMission(data.match(/<input[^>]*\/mission\/daily\/redeem\?once=(\d+)[^>]*>/)[1])
+      console.log(`data为NULL，需要重新运行一次该脚本`);
+      
     }
-    
+
     if (error) {
       console.log(`有错误返回:${error}`)
     }
@@ -37,9 +46,16 @@ function signMission(code) {
     url: `https://www.v2ex.com/mission/daily/redeem?once=${code}`,
     headers: { Cookie: cookieVal }
   }
-  $httpClient.get(prama, (error, response, data) => {
 
+  console.log(`开始签到，此次使用的cookie是：${cookieVal}`);
+
+  $httpClient.get(prama, (error, response, data) => {
+    
     if (data.indexOf('每日登录奖励已领取') >= 0) {
+
+      console.log(`检查签到请求返回的data是：`);
+      console.log(data);
+      
       let title = `${cookieName}`
       let subTitle = `签到结果: 签到成功`
       let detail = `V2ex今日签到成功：${data.match(/已连续登录 (\d+?) 天/)[0]}`
