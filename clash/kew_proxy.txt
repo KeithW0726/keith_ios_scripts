@@ -1,3 +1,4 @@
 payload:
   - '+.v2ex.com'
   - '+.lbyczf.com'
+  - 'mo.shi'
