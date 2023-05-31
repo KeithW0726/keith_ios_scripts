@@ -3,3 +3,5 @@ payload:
   - '+.lbyczf.com'
   - 'mo.shi'
   - 'bulianglin.com'
+  - '+.asiacomics.online'
+  - '+.asiacomics.com'
