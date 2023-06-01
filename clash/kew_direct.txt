@@ -1,2 +1,3 @@
 payload:
   - '+.0726868.xyz'
+  - '+.zhihu.com'
