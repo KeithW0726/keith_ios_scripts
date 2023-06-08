@@ -6,3 +6,4 @@ payload:
   - '+.asiacomics.online'
   - '+.asiacomics.com'
   - '+.lbyczf.com'
+  - '+.brew.sh'
