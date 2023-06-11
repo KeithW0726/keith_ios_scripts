@@ -7,3 +7,4 @@ payload:
   - '+.asiacomics.com'
   - '+.lbyczf.com'
   - '+.brew.sh'
+  - '+.24hourwallpaper.com'
