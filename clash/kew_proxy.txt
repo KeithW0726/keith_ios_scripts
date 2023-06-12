@@ -8,3 +8,4 @@ payload:
   - '+.lbyczf.com'
   - '+.brew.sh'
   - '+.24hourwallpaper.com'
+  - '+.gitbook.io'
