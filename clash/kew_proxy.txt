@@ -9,3 +9,4 @@ payload:
   - '+.brew.sh'
   - '+.24hourwallpaper.com'
   - '+.gitbook.io'
+  - '+.luxirty.com'
