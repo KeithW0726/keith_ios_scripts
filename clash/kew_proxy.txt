@@ -2,7 +2,7 @@ payload:
   - '+.v2ex.com'
   - '+.lbyczf.com'
   - 'mo.shi'
-  - 'bulianglin.com'
+  - '+.bulianglin.com'
   - '+.asiacomics.online'
   - '+.asiacomics.com'
   - '+.lbyczf.com'
