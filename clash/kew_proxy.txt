@@ -11,3 +11,4 @@ payload:
   - '+.gitbook.io'
   - '+.luxirty.com'
   - '+.v2board.com'
+  - '+.digicert.com'
