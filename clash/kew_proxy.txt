@@ -12,3 +12,4 @@ payload:
   - '+.luxirty.com'
   - '+.v2board.com'
   - '+.digicert.com'
+  - '+.ghcr.io'
