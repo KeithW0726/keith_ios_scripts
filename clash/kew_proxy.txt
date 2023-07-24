@@ -13,3 +13,4 @@ payload:
   - '+.v2board.com'
   - '+.digicert.com'
   - '+.ghcr.io'
+  - '+.zhuzi.dev'
