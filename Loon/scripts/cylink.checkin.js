@@ -4,7 +4,7 @@ $.VAL_session = $.getdata('keith_cookie_cylink')
 
 //  配置cookies
 const init=()=> {
-  $.isNewCookie = /https:\/\/cylink.cloud/.test($.VAL_session)
+  $.isNewCookie = /https:\/\/cylink.moe/.test($.VAL_session)
   $.Cookie = $.isNewCookie ? JSON.parse($.VAL_session).headers.Cookie : $.VAL_session
   $.log('', `🔔 ${$.name}, Cookie更新!`, `Cookie是：${$.Cookie}`);
   $.log('', `🔔 ${$.name}, 使用的header信息如下!`, $.VAL_session);
@@ -18,16 +18,16 @@ const init=()=> {
 const checkIn1 = async () => {
   await new Promise((resolve) => {
     const options = {
-      url:`https://cylink.cloud/user/checkin`,
+      url:`https://cylink.moe/user/checkin`,
       headers:{
         'Accept' : `application/json, text/javascript, */*; q=0.01`,
         'Accept-Encoding' : `gzip, deflate, br`,
-        'Origin' : `https://cylink.cloud`,
+        'Origin' : `https://cylink.moe`,
         'Cookie' : $.Cookie,
         'Connection' : `keep-alive`,
         'Host' : `cylink.moe`,
         'User-Agent' : `Mozilla/5.0 (iPhone; CPU iPhone OS 16_0_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1`,
-        'Referer' : `https://cylink.cloud/user`,
+        'Referer' : `https://cylink.moe/user`,
         'Accept-Language' : `zh-CN,zh-Hans;q=0.9`,
         'X-Requested-With' : `XMLHttpRequest`
       }
