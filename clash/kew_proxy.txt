@@ -28,3 +28,6 @@ payload:
   - '+bing.net'
   - '+bingapis.com'
   - '+bingforbusiness.com'
+  - '+xsus.wiki'
+  - '+xsus.moe'
+
