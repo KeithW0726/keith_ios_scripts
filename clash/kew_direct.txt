@@ -32,3 +32,4 @@ payload:
   - '+.networkcheck.kde.org'
   - '+.connectivitycheck.gstatic.com'
   - '+.captive.apple.com'
+  - '+.moeshare.cc'
