@@ -30,4 +30,5 @@ payload:
   - '+bingforbusiness.com'
   - '+xsus.wiki'
   - '+xsus.moe'
+  - '+cylink.club'
 
