@@ -35,4 +35,23 @@ DOMAIN-SUFFIX, sus.wiki
 DOMAIN-SUFFIX, sus.moe
 DOMAIN-SUFFIX, ylink.club
 
-
+# From Loon 自己记录的规则
+# Updated：2024-02-13
+DOMAIN-SUFFIX, pikpak.me
+DOMAIN-SUFFIX, pikpakdrive.com
+DOMAIN-SUFFIX, wikipedia.org
+DOMAIN-SUFFIX, notion.so
+DOMAIN-SUFFIX, vercel.app
+DOMAIN-SUFFIX, boxjs.com
+DOMAIN-SUFFIX, t.co
+DOMAIN-SUFFIX, xsus.chat
+DOMAIN-SUFFIX, bookai.top
+DOMAIN-SUFFIX, bing.net
+DOMAIN-SUFFIX, bing.com
+DOMAIN-SUFFIX, discordapp.page.link
+DOMAIN-SUFFIX, discord.com
+DOMAIN-SUFFIX, cylink.club
+DOMAIN-KEYWORD, asiacomics
+DOMAIN-SUFFIX, mypikpak.com
+DOMAIN-SUFFIX, access.mypikpak.net
+DOMAIN-SUFFIX, api-drive.mypikpak.com
