@@ -1,4 +1,4 @@
-# Updated: 2024-02-13
+# Updated: 2024-02-17
 # Author： Keith
 # classical rules
 
@@ -31,4 +31,13 @@ DOMAIN-SUFFIX, networkcheck.kde.org
 DOMAIN-SUFFIX, connectivitycheck.gstatic.com
 DOMAIN-SUFFIX, captive.apple.com
 DOMAIN-SUFFIX, moeshare.cc
+DOMAIN-SUFFIX, ibm.com
+DOMAIN-SUFFIX, plex.tv
+DOMAIN-SUFFIX, odysseyplus.site
+DOMAIN, ssl.ptlogin2.qq.com
+DOMAIN, localhost.ptlogin2.qq.com
+DOMAIN, relay.firefox.com
+
+
+
 
