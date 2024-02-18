@@ -2,64 +2,61 @@
 # Author： Keith
 # classical rules
 
-DOMAIN-SUFFIX, v2ex.com
-DOMAIN-SUFFIX, lbyczf.com
-DOMAIN-SUFFIX, .shi
-DOMAIN-SUFFIX, bulianglin.com
-DOMAIN-SUFFIX, asiacomics.online
-DOMAIN-SUFFIX, asiacomics.com
-DOMAIN-SUFFIX, lbyczf.com
-DOMAIN-SUFFIX, brew.sh
-DOMAIN-SUFFIX, 24hourwallpaper.com
-DOMAIN-SUFFIX, gitbook.io
-DOMAIN-SUFFIX, luxirty.com
-DOMAIN-SUFFIX, v2board.com
-DOMAIN-SUFFIX, digicert.com
-DOMAIN-SUFFIX, ghcr.io
-DOMAIN-SUFFIX, zhuzi.dev
-DOMAIN-SUFFIX, sxiaobing.com
-DOMAIN-SUFFIX, ing.com
-DOMAIN-SUFFIX, ing123.com
-DOMAIN-SUFFIX, ing135.com
-DOMAIN-SUFFIX, ing4.com
-DOMAIN-SUFFIX, ing.com.bo
-DOMAIN-SUFFIX, ing.com.co
-DOMAIN-SUFFIX, ing.com.cy
-DOMAIN-SUFFIX, ing.com.gt
-DOMAIN-SUFFIX, ing.jp
-DOMAIN-SUFFIX, ing.cn
-DOMAIN-SUFFIX, ing.net
-DOMAIN-SUFFIX, ingapis.com
-DOMAIN-SUFFIX, ingforbusiness.com
-DOMAIN-SUFFIX, sus.wiki
-DOMAIN-SUFFIX, sus.moe
-DOMAIN-SUFFIX, ylink.club
-DOMAIN-SUFFIX, sehuatang.org
-DOMAIN-SUFFIX, cangku.moe
-DOMAIN-SUFFIX, xbbs.me
-DOMAIN-SUFFIX, acgcbk11.vip
-DOMAIN-SUFFIX, 455.fun
-DOMAIN-SUFFIX, 4550.fun
-DOMAIN-KEYWORD, 4550
-DOMAIN-KEYWORD, xbbs
+DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,lbyczf.com
+DOMAIN-SUFFIX,.shi
+DOMAIN-SUFFIX,bulianglin.com
+DOMAIN-SUFFIX,asiacomics.online
+DOMAIN-SUFFIX,asiacomics.com
+DOMAIN-SUFFIX,lbyczf.com
+DOMAIN-SUFFIX,brew.sh
+DOMAIN-SUFFIX,24hourwallpaper.com
+DOMAIN-SUFFIX,gitbook.io
+DOMAIN-SUFFIX,luxirty.com
+DOMAIN-SUFFIX,v2board.com
+DOMAIN-SUFFIX,digicert.com
+DOMAIN-SUFFIX,ghcr.io
+DOMAIN-SUFFIX,zhuzi.dev
+DOMAIN-SUFFIX,sxiaobing.com
+DOMAIN-SUFFIX,ing.com
+DOMAIN-SUFFIX,ing123.com
+DOMAIN-SUFFIX,ing135.com
+DOMAIN-SUFFIX,ing4.com
+DOMAIN-SUFFIX,ing.com.bo
+DOMAIN-SUFFIX,ing.com.co
+DOMAIN-SUFFIX,ing.com.cy
+DOMAIN-SUFFIX,ing.com.gt
+DOMAIN-SUFFIX,ing.jp
+DOMAIN-SUFFIX,ing.cn
+DOMAIN-SUFFIX,ing.net
+DOMAIN-SUFFIX,ingapis.com
+DOMAIN-SUFFIX,ingforbusiness.com
+DOMAIN-SUFFIX,sus.wiki
+DOMAIN-SUFFIX,sus.moe
+DOMAIN-SUFFIX,ylink.club
+DOMAIN-SUFFIX,sehuatang.org
+DOMAIN-SUFFIX,cangku.moe
+DOMAIN-SUFFIX,xbbs.me
+DOMAIN-SUFFIX,acgcbk11.vip
+DOMAIN-SUFFIX,455.fun
+DOMAIN-SUFFIX,4550.fun
+DOMAIN-KEYWORD,4550
+DOMAIN-KEYWORD,xbbs
 
 # From Loon 自己记录的规则
 # Updated：2024-02-13
-DOMAIN-SUFFIX, pikpak.me
-DOMAIN-SUFFIX, pikpakdrive.com
-DOMAIN-SUFFIX, wikipedia.org
-DOMAIN-SUFFIX, notion.so
-DOMAIN-SUFFIX, vercel.app
-DOMAIN-SUFFIX, boxjs.com
-DOMAIN-SUFFIX, t.co
-DOMAIN-SUFFIX, xsus.chat
-DOMAIN-SUFFIX, bookai.top
-DOMAIN-SUFFIX, bing.net
-DOMAIN-SUFFIX, bing.com
-DOMAIN-SUFFIX, discordapp.page.link
-DOMAIN-SUFFIX, discord.com
-DOMAIN-SUFFIX, cylink.club
-DOMAIN-KEYWORD, asiacomics
-DOMAIN-SUFFIX, mypikpak.com
-DOMAIN-SUFFIX, access.mypikpak.net
-DOMAIN-SUFFIX, api-drive.mypikpak.com
+DOMAIN-SUFFIX,pikpak.me
+DOMAIN-SUFFIX,pikpakdrive.com
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,vercel.app
+DOMAIN-SUFFIX,boxjs.com
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,xsus.chat
+DOMAIN-SUFFIX,bookai.top
+DOMAIN-SUFFIX,bing.net
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,discordapp.page.link
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,cylink.club
+DOMAIN-KEYWORD,asiacomics
