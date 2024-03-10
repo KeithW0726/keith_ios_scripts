@@ -6,7 +6,7 @@ const $ = new Env('次元链接签到拿Cookie')
 !(async () => {
   $.log('', `🔔 ${$.name}, 获取会话: 开始!`, '')
   const session = {}
-  session.url = "https://cylink.club/user/checkin"
+  session.url = "https://2cy.xyz/user/checkin"
   if ($request.body) {
     session.body = $request.body
   } else {
