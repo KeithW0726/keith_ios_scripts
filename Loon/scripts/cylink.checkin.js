@@ -18,7 +18,7 @@ const init=()=> {
 const checkIn1 = async () => {
   await new Promise((resolve) => {
     const options = {
-      url:`https://cylink.club/user/checkin`,
+      url:`https://2cy.xyz/user/checkin`,
       headers:{
         'Accept' : `application/json, text/javascript, */*; q=0.01`,
         'Accept-Encoding' : `gzip, deflate, br`,
