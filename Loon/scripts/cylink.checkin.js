@@ -4,7 +4,7 @@ $.VAL_session = $.getdata('keith_cookie_cylink')
 
 //  配置cookies
 const init=()=> {
-  $.isNewCookie = /https:\/\/cylink.club/.test($.VAL_session)
+  $.isNewCookie = /https:\/\/2cy.xyz/.test($.VAL_session)
   $.Cookie = $.isNewCookie ? JSON.parse($.VAL_session).headers.Cookie : $.VAL_session
   $.log('', `🔔 ${$.name}, Cookie更新!`, `Cookie是：${$.Cookie}`);
   $.log('', `🔔 ${$.name}, 使用的header信息如下!`, $.VAL_session);
