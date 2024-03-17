@@ -1,4 +1,4 @@
-# Updated: 2024-02-17
+# Updated: 2024-03-17
 # Author： Keith
 # classical rules
 
@@ -60,12 +60,9 @@ DOMAIN-SUFFIX,submirror.xyz
 DOMAIN-SUFFIX,coinglass.com
 DOMAIN-SUFFIX,dexscreener.com
 DOMAIN-SUFFIX,i-i.me
-DOMAIN-SUFFIX,i-i.me
 DOMAIN-SUFFIX,acgcbk.vip
 DOMAIN-SUFFIX,acgcbk.top
 DOMAIN-SUFFIX,picacomic.com
-DOMAIN-SUFFIX,south-plus.org
-DOMAIN-SUFFIX,east-plus.net
 DOMAIN-SUFFIX,mirror-media.xyz
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,binance.cloud
@@ -87,8 +84,16 @@ DOMAIN-SUFFIX,11img.com
 DOMAIN-SUFFIX,bitkan.com
 DOMAIN-SUFFIX,firefly-iii.org
 DOMAIN-SUFFIX,uscardforum.com
-
-
+DOMAIN-SUFFIX,soul-plus.net
+DOMAIN-SUFFIX,north-plus.net
+DOMAIN-SUFFIX,south-plus.net
+DOMAIN-SUFFIX,white-plus.net
+LDOMAIN-SUFFIX,level-plus.net
+DOMAIN-SUFFIX,summer-plus.net
+DOMAIN-SUFFIX,spring-plus.net
+DOMAIN-SUFFIX,snow-plus.net
+DOMAIN-SUFFIX,south-plus.org
+DOMAIN-SUFFIX,east-plus.net
 
 
 # From Loon 自己记录的规则
