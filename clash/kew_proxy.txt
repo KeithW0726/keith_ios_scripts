@@ -31,4 +31,5 @@ payload:
   - '+xsus.wiki'
   - '+xsus.moe'
   - '+cylink.club'
+  - '+.moeshare.cc'
 
