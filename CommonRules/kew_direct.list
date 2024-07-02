@@ -1,4 +1,4 @@
-# Updated: 2024-02-17
+# Updated: 2024-07-02
 # Author： Keith
 # classical rules
 
@@ -30,7 +30,6 @@ DOMAIN-SUFFIX,10.in-addr.arpa
 DOMAIN-SUFFIX,networkcheck.kde.org
 DOMAIN-SUFFIX,connectivitycheck.gstatic.com
 DOMAIN-SUFFIX,captive.apple.com
-DOMAIN-SUFFIX,moeshare.cc
 DOMAIN-SUFFIX,ibm.com
 DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,odysseyplus.site
