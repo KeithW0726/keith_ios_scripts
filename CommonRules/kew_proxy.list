@@ -1,4 +1,4 @@
-# Updated: 2024-07-02
+# Updated: 2024-07-06
 # Author： Keith
 # classical rules
 
@@ -99,6 +99,10 @@ DOMAIN-SUFFIX,leechpub.com
 DOMAIN-SUFFIX,.pubg-file.si
 DOMAIN-SUFFIX,moeshare.cc
 DOMAIN-SUFFIX,syncthing.net
+DOMAIN-SUFFIX,fbsublink.com
+DOMAIN-SUFFIX,fbvipbaff.pro
+DOMAIN-SUFFIX,neodb.social
+
 
 
 
