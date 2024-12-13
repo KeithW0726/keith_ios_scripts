@@ -35,5 +35,5 @@ prepend:
   - DOMAIN-SUFFIX,mega.nz,⬇️ EdgeTunnel下载专用
   - DOMAIN-SUFFIX,mega.co.nz,⬇️ EdgeTunnel下载专用
   
-  # 测试类
-  - DOMAIN-SUFFIX,moeshare.cc,🌏 国内网站
+  # 萌享专用的
+  - DOMAIN-SUFFIX,moeshare.cc,📖 萌享专用
