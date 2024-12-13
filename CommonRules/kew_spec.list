@@ -2,5 +2,38 @@
 # Author： Keith
 # classical rules
 # 用途：特殊用途类
+# 这些最好是放在本地静态规则，随时进行调整的
 
-# DOMAIN-SUFFIX,moeshare.cc
+
+prepend:
+  # 必须走自用机场的
+  - DOMAIN-SUFFIX,5t-cdn.com,✈️ 自用机场专用
+  - DOMAIN-SUFFIX,tmp.link,✈️ 自用机场专用
+  - DOMAIN-SUFFIX,greasyfork.org,✈️ 自用机场专用
+  - DOMAIN,docs.rsshub.app,✈️ 自用机场专用
+  - DOMAIN-SUFFIX,nn.ci,✈️ 自用机场专用
+  - DOMAIN-SUFFIX,readmoo.com,✈️ 自用机场专用
+  - DOMAIN-SUFFIX,yuhuage.win,✈️ 自用机场专用
+  - DOMAIN-SUFFIX,astral.sh,✈️ 自用机场专用
+  - DOMAIN-SUFFIX,e-hentai.org,✈️ 自用机场专用
+  - DOMAIN-SUFFIX,10086360.xyz,✈️ 自用机场专用
+  - DOMAIN-SUFFIX,apkmirror.com,✈️ 自用机场专用
+  - DOMAIN-SUFFIX,bookwalker.com.tw,✈️ 自用机场专用
+  - DOMAIN-SUFFIX,mediafire.com,✈️ 自用机场专用
+  - DOMAIN-KEYWORD, bookwalker,✈️ 自用机场专用
+  - DOMAIN-SUFFIX,bookwalker.jp,✈️ 自用机场专用
+  - DOMAIN-SUFFIX,fbvipbaff.pro,✈️ 自用机场专用
+  - DOMAIN-SUFFIX,4550.fun,✈️ 自用机场专用
+  - DOMAIN-SUFFIX,south-plus.net,✈️ 自用机场专用
+  - DOMAIN-SUFFIX,south-plus.org,✈️ 自用机场专用
+  - DOMAIN-SUFFIX,notion.site,✈️ 自用机场专用
+  - DOMAIN-SUFFIX,notion.so,✈️ 自用机场专用
+  - DOMAIN-SUFFIX,v2ex.com,✈️ 自用机场专用
+  - DOMAIN-SUFFIX,manhuabudangbbs.com,✈️ 自用机场专用
+
+  # 下载专用类
+  - DOMAIN-SUFFIX,mega.nz,⬇️ EdgeTunnel下载专用
+  - DOMAIN-SUFFIX,mega.co.nz,⬇️ EdgeTunnel下载专用
+  
+  # 测试类
+  - DOMAIN-SUFFIX,moeshare.cc,🌏 国内网站
