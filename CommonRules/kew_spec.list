@@ -4,7 +4,6 @@
 # 用途：特殊用途类
 # 这些最好是放在本地静态规则，随时进行调整的
 
-
 prepend:
   # 必须走自用机场的
   - DOMAIN-SUFFIX,5t-cdn.com,✈️ 自用机场专用
@@ -34,6 +33,6 @@ prepend:
   # 下载专用类
   - DOMAIN-SUFFIX,mega.nz,⬇️ EdgeTunnel下载专用
   - DOMAIN-SUFFIX,mega.co.nz,⬇️ EdgeTunnel下载专用
-  
+
   # 萌享专用的
   - DOMAIN-SUFFIX,moeshare.cc,📖 萌享专用
