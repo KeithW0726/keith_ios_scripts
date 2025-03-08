@@ -1,4 +1,4 @@
-# Updated: 2024-07-06
+# Updated: 2025-03-08
 # Author： Keith
 # classical rules
 
@@ -103,11 +103,6 @@ DOMAIN-SUFFIX,fbsublink.com
 DOMAIN-SUFFIX,fbvipbaff.pro
 DOMAIN-SUFFIX,neodb.social
 
-
-
-
-
-# From Loon 自己记录的规则
 # Updated：2024-02-13
 DOMAIN-SUFFIX,pikpak.me
 DOMAIN-SUFFIX,pikpakdrive.com
@@ -125,8 +120,7 @@ DOMAIN-SUFFIX,discord.com
 DOMAIN-SUFFIX,cylink.club
 DOMAIN-KEYWORD,asiacomics
 
-
-# 2024-09-16 临时放上
+# 2024-09-16
 DOMAIN-SUFFIX,manhuabudangbbs.com
 # 2024-10-20
 DOMAIN,moeshare.0726868.xyz
@@ -190,3 +184,15 @@ DOMAIN,69yun69.com
 DOMAIN,69yun.top
 DOMAIN-SUFFIX,immich.cloud
 
+# 2025-03-08 added
+DOMAIN-SUFFIX,pages.dev
+DOMAIN-SUFFIX,dcard.tw
+DOMAIN-SUFFIX,cchostvps.xyz
+DOMAIN-KEYWORD,annas-archive
+DOMAIN-SUFFIX,annas-archive.org
+DOMAIN-SUFFIX,1lib.sk
+DOMAIN-SUFFIX,bangumi.moe
+DOMAIN-SUFFIX,acgrip.com
+DOMAIN-SUFFIX,gmgn.ai
+DOMAIN-SUFFIX,maptiler.com
+DOMAIN-SUFFIX,mapfilters.com

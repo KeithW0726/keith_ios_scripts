@@ -1,4 +1,4 @@
-# Updated: 2024-07-02
+# Updated: 2025-03-08
 # Author： Keith
 # classical rules
 
@@ -39,3 +39,5 @@ DOMAIN-SUFFIX,x-alist.duckdns.org
 DOMAIN-SUFFIX,aod.itunes.apple.com
 DOMAIN-SUFFIX,freefrp.net
 DOMAIN-SUFFIX,a.x-plus.top
+DOMAIN,china.69yun69.com
+DOMAIN,zh.69yun69.com
