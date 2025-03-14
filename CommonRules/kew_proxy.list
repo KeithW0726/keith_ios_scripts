@@ -8,7 +8,6 @@ DOMAIN-SUFFIX,.shi
 DOMAIN-SUFFIX,bulianglin.com
 DOMAIN-SUFFIX,asiacomics.online
 DOMAIN-SUFFIX,asiacomics.com
-DOMAIN-SUFFIX,lbyczf.com
 DOMAIN-SUFFIX,brew.sh
 DOMAIN-SUFFIX,24hourwallpaper.com
 DOMAIN-SUFFIX,gitbook.io
@@ -75,7 +74,6 @@ DOMAIN-SUFFIX,23img.com
 DOMAIN-SUFFIX,setuimg.com
 DOMAIN-SUFFIX,t66y.com
 DOMAIN-SUFFIX,radio-canada.ca
-DOMAIN-SUFFIX,getrevue.co
 DOMAIN-SUFFIX,nwen.net
 DOMAIN-SUFFIX,jable.tv
 DOMAIN-SUFFIX,yzmh.icu
@@ -122,9 +120,9 @@ DOMAIN-KEYWORD,asiacomics
 
 # 2024-09-16
 DOMAIN-SUFFIX,manhuabudangbbs.com
+
 # 2024-10-20
 DOMAIN,moeshare.0726868.xyz
-
 # 2024-12-13 added
 DOMAIN-SUFFIX,tinyurl.com
 DOMAIN-SUFFIX,birdeye.so
@@ -147,14 +145,10 @@ DOMAIN-SUFFIX,sifangclub.com
 DOMAIN-SUFFIX,ankiweb.net
 DOMAIN-SUFFIX,ablaze.one
 DOMAIN-SUFFIX,crustipfs.info
-DOMAIN-SUFFIX,fbsublink.com
-DOMAIN-SUFFIX,fbvipbaff.pro
-DOMAIN-SUFFIX,neodb.social
 DOMAIN-SUFFIX,tmp-api.vx-cdn.com
 DOMAIN-SUFFIX,cylink.dev
 DOMAIN-SUFFIX,yuhuage.win
 DOMAIN-SUFFIX,tmp.link
-DOMAIN-SUFFIX,birdeye.so
 DOMAIN-KEYWORD,cylink
 DOMAIN-SUFFIX,metacubex.one
 
@@ -222,7 +216,6 @@ DOMAIN-SUFFIX,anilist.co
 # 2025-03-14 From：https://github.com/metatube-community/metatube-sdk-go/tree/main/provider
 DOMAIN-SUFFIX,10musume.com
 DOMAIN-SUFFIX,1pondo.tv
-DOMAIN-SUFFIX,airav.wiki
 DOMAIN-SUFFIX,arzon.jp
 DOMAIN-SUFFIX,avbase.net
 DOMAIN-SUFFIX,aventertainments.com
@@ -242,11 +235,7 @@ DOMAIN-SUFFIX,h0930.com
 DOMAIN-SUFFIX,h4610.com
 DOMAIN-SUFFIX,heydouga.com
 DOMAIN-SUFFIX,heyzo.com
-DOMAIN-SUFFIX,jav321.com
-DOMAIN-SUFFIX,javbus.com
 DOMAIN-SUFFIX,kin8tengoku.com
-DOMAIN-SUFFIX,madouqu.com
-DOMAIN-SUFFIX,mgstage.com
 DOMAIN-SUFFIX,muramura.tv
 DOMAIN-SUFFIX,mywife.cc
 DOMAIN-SUFFIX,pacopacomama.com
@@ -256,5 +245,3 @@ DOMAIN-SUFFIX,ec.sod.co.jp/prime
 DOMAIN-SUFFIX,my.tokyo-hot.com
 DOMAIN-SUFFIX,xslist.org
 DOMAIN-SUFFIX,xxx-av.com
-
-
