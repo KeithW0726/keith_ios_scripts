@@ -41,3 +41,18 @@ DOMAIN-SUFFIX,freefrp.net
 DOMAIN-SUFFIX,a.x-plus.top
 DOMAIN,china.69yun69.com
 DOMAIN,zh.69yun69.com
+
+# 2025-03-31 
+## Mac Process
+PROCESS-NAME-REGEX,.*QQ.*
+PROCESS-NAME-REGEX,.*Resilio.*
+PROCESS-NAME-REGEX,.*BaiduNetdisk.*
+PROCESS-NAME-REGEX,.*115Browser.*
+PROCESS-NAME-REGEX,.*Wechat.*
+PROCESS-NAME-REGEX,.*ToDesk.*
+PROCESS-NAME-REGEX,.*todesk.*
+PROCESS-NAME,ToDesk
+PROCESS-NAME,maps
+
+## Windows Process
+PROCESS-NAME,wechat.exe

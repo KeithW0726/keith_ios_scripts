@@ -245,3 +245,17 @@ DOMAIN-SUFFIX,ec.sod.co.jp/prime
 DOMAIN-SUFFIX,my.tokyo-hot.com
 DOMAIN-SUFFIX,xslist.org
 DOMAIN-SUFFIX,xxx-av.com
+
+# 2025-03-31
+DOMAIN-KEYWORD,mozilla
+DOMAIN-SUFFIX,fc2.com
+DOMAIN-SUFFIX,fc2ppvdb.com
+DOMAIN-KEYWORD,z-lib
+DOMAIN-KEYWORD,zlib
+DOMAIN-SUFFIX,barnesandnoble.com
+DOMAIN-SUFFIX,dldlinks.com
+DOMAIN-SUFFIX,momot.rs
+DOMAIN-KEYWORD,gying
+DOMAIN-SUFFIX,hdhive.online
+DOMAIN-SUFFIX,404no.net
+
