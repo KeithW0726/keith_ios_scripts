@@ -43,6 +43,8 @@ DOMAIN,china.69yun69.com
 DOMAIN,zh.69yun69.com
 DOMAIN,api.day.app
 
+DOMAIN-SUFFIX,argotunnel.com,DIRECT
+
 # 2025-03-31 
 ## Mac Process
 PROCESS-NAME-REGEX,.*QQ.*
@@ -57,3 +59,8 @@ PROCESS-NAME,maps
 
 ## Windows Process
 PROCESS-NAME,wechat.exe
+PROCESS-NAME,115chrome.exe
+PROCESS-NAME,BaiduNetdisk.exe
+PROCESS-NAME,localsend_app.exe
+PROCESS-NAME,ToDesk.exe
+PROCESS-NAME,i4Remote.exe
