@@ -1,4 +1,4 @@
-# Updated: 2025-03-08
+# Updated: 2025-06-21
 # Author： Keith
 # classical rules
 
@@ -265,3 +265,11 @@ DOMAIN-KEYWORD,moxing
 DOMAIN-SUFFIX,5ch.net
 DOMAIN-KEYWORD,missav
 DOMAIN-KEYWORD,hanime
+
+# 2025-06-21
+DOMAIN-SUFFIX,acgdmzy.com
+DOMAIN-SUFFIX,elysia.rip
+DOMAIN-SUFFIX,mjj.today
+DOMAIN-SUFFIX,tsdm39.com
+DOMAIN-KEYWORD,manhuagui
+
