@@ -10,7 +10,7 @@
 
 
 [script]
-http-request ^https?:\/\/fmapi\.feimaoyun\.com sscript-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/luka/luka_signin.js,tag=飞猫云_获取token
+http-request ^https?:\/\/fmapi\.feimaoyun\.com sscript-path=https://raw.githubusercontent.com/KeithW0726/keith_ios_scripts/main/Loon/scripts/feimao.getToken.js,tag=飞猫云_获取token
 
 [mitm]
 hostname = fmpapi.feimaoyun.com
