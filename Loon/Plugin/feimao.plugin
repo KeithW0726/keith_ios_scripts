@@ -1,5 +1,5 @@
 #!name= 飞猫云
-#!desc= 最后更新时间：2025-07-12
+#!desc= 最后更新时间：2025-07-12 15:12 点进福利社才触发收token的
 #!author= Keith
 #!icon= 插件的图标
 #!system = iOS,iPadOS,tvOS,macOS
@@ -8,9 +8,16 @@
 #!tag = keith,签到,打卡
 
 
+# [Argument]
+# 扫码Cookie = switch,false,tag=[开关] 扫码Cookie,desc=是否启用此处修改
+# RunTime = input,"00 7 * * *",tag=自定义执行时间,desc=可手动更改脚本运行时间，默认早上7点半
+
+
 [script]
-http-request ^https?:\/\/fmapi\.feimaoyun\.com script-path=https://raw.githubusercontent.com/KeithW0726/keith_ios_scripts/main/Loon/scripts/feimao.getToken.js,tag=飞猫云_获取token
+http-request ^https?:\/\/fmpapi\.feimaoyun\.com\/user-service\/welfare\/taskInfoV2 script-path=https://raw.githubusercontent.com/KeithW0726/keith_ios_scripts/main/Loon/scripts/feimao.getToken.js,tag=飞猫云_获取token
+
+# 每次把飞猫在青龙上的环境变量
+# cron {RunTime} script-path=https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js, tag=每日更新飞猫token到青龙上, timeout=15
 
 [mitm]
 hostname = fmpapi.feimaoyun.com
-
