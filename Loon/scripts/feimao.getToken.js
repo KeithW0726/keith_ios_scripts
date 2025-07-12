@@ -38,6 +38,14 @@ async function getCookie() {
 
     $.setjson(newData, ckName);
     $.msg($.name, `🎉 飞猫 Token 保存成功！`, JSON.stringify(newData, null, 2));
+
+    $.msg(
+      $.name,
+      `🎉 飞猫 Token 格化，可以输入到qinglong bot！`,
+      `env put fm_par=${newData.fm_par}
+      env put fm_pto=${newData.fm_pto}
+      env put fm_token=${newData.fm_token}`
+    );
   } catch (e) {
     $.msg($.name, `⛔️ 获取 header 失败`, e.message || e);
     throw e;
