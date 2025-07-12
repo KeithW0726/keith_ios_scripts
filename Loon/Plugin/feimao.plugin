@@ -10,11 +10,8 @@
 
 
 [script]
-http-request ^https?:\/\/fmapi\.feimaoyun\.com sscript-path=https://raw.githubusercontent.com/KeithW0726/keith_ios_scripts/main/Loon/scripts/feimao.getToken.js,tag=飞猫云_获取token
+http-request ^https?:\/\/fmapi\.feimaoyun\.com script-path=https://raw.githubusercontent.com/KeithW0726/keith_ios_scripts/main/Loon/scripts/feimao.getToken.js,tag=飞猫云_获取token
 
 [mitm]
 hostname = fmpapi.feimaoyun.com
-
-
-http-request ^https?:\/\/luka\-graphql\.ling\.cn\/graphql\/mobile\?operation=UserInfoWithPendingRobotQuery 
 
