@@ -2,7 +2,6 @@
 #!desc= 最后更新时间：2025-07-12
 #!author= Keith
 #!icon= 插件的图标
-#!input = author
 #!system = iOS,iPadOS,tvOS,macOS
 #!system_version = 15
 #!loon_version = 3.2.1(372)
