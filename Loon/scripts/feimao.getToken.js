@@ -36,7 +36,7 @@ async function getCookie() {
       throw new Error("缺少必要字段（token/pto/par），请检查抓包结果");
     }
 
-    $.setjson(newData, ckName);
+    $.setdata(newData, ckName);
     $.msg($.name, `🎉 飞猫 Token 保存成功！`, JSON.stringify(newData, null, 2));
 
     $.msg(
