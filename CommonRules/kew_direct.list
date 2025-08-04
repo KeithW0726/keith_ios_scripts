@@ -56,6 +56,8 @@ PROCESS-NAME-REGEX,.*ToDesk.*
 PROCESS-NAME-REGEX,.*todesk.*
 PROCESS-NAME,ToDesk
 PROCESS-NAME,maps
+PROCESS-NAME,*UU远程.*
+PROCESS-NAME,*i4Remote.*
 
 ## Windows Process
 PROCESS-NAME,wechat.exe
@@ -64,3 +66,5 @@ PROCESS-NAME,BaiduNetdisk.exe
 PROCESS-NAME,localsend_app.exe
 PROCESS-NAME,ToDesk.exe
 PROCESS-NAME,i4Remote.exe
+PROCESS-NAME,GamerViewer.exe
+PROCESS-NAME,*GamerViewer*.exe
