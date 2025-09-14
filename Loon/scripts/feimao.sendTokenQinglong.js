@@ -8,28 +8,50 @@ $.is_debug =
   ($.isNode() ? process.env.IS_DEDUG : $.getdata("is_debug")) || "false";
 $.doFlag = { true: "✅", false: "⛔️" };
 
+// const userToken =
+//   $.toObj($.isNode() ? process.env[ckName] : $.getdata(ckName)) || [];
+
+const parseAppleLikeKV = async (str) => {
+  const result = {};
+  // 移除首尾的大括号和换行
+  str = str.trim().replace(/^{|}$/g, "").trim();
+  $.log(str);
+
+  // 每一行形如：  "fm_par" = "xxx";
+  const lines = str.split(/;\s*\n?/).filter(Boolean);
+
+  for (const line of lines) {
+    const match = line.match(/"(.+?)"\s*=\s*"(.+?)"/);
+    if (match) {
+      const [, key, value] = match;
+      result[key] = value;
+    }
+  }
+
+  return result;
+};
+
 const userToken =
-  $.toObj($.isNode() ? process.env[ckName] : $.getdata(ckName)) || [];
+  parseAppleLikeKV($.isNode() ? process.env[ckName] : $.getdata(ckName)) || [];
 
 async function sendFeimaoQinglong() {
-  try {
-    if (!userToken?.length)
-      throw new Error("脚本报错：飞猫脚本的userToken是空的");
-    $.log(
-      `⚙️ a total of ${
-        userCookie?.length ?? 0
-      } accounts were identified during this operation.`
-    );
-  } catch (e) {
-    throw e;
-  }
+  // try {
+  $.log($.getdata(ckName));
+
+  $.log(parseAppleLikeKV($.getdata(ckName)));
+  // if (!userToken?.length)
+  // throw new Error("脚本报错：飞猫脚本的userToken是空的");
+  $.log(userToken);
+  // } catch (e) {
+  //   throw e;
+  // }
 }
 
 !(async () => {
   try {
-    if (typeof $request != "undefined") {
-      await sendFeimaoQinglong();
-    }
+    // if (typeof $request != "undefined") {
+    await sendFeimaoQinglong();
+    // }
   } catch (e) {
     throw e;
   }

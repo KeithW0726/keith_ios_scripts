@@ -68,3 +68,7 @@ PROCESS-NAME,ToDesk.exe
 PROCESS-NAME,i4Remote.exe
 PROCESS-NAME,GamerViewer.exe
 PROCESS-NAME,*GamerViewer*.exe
+
+# 用于判断用户所在地区分配下载CDN的地址
+# Steam通过检测用户IP归属地自动分配下载CDN区域的机制，可通过配置DIRECT策略让你始终使用国内的CDN下载。
+DOMAIN-SUFFIX, steamserver.net, DIRECT
