@@ -225,7 +225,6 @@ DOMAIN-SUFFIX,caribbeancompr.com
 DOMAIN-SUFFIX,dahlia-av.jp
 DOMAIN-SUFFIX,duga.jp
 DOMAIN-SUFFIX,faleno.jp/top
-DOMAIN-SUFFIX,dmm.co.jp
 DOMAIN-SUFFIX,adult.contents.fc2.com
 DOMAIN-SUFFIX,fc2hub.com
 DOMAIN-SUFFIX,gcolle.net
@@ -288,6 +287,18 @@ DOMAIN-SUFFIX,pypi.org
 DOMAIN-SUFFIX,hamreus.com
 
 DOMAIN-SUFFIX,lightnovel.app
+
+
+# 2026-02-17
+DOMAIN-SUFFIX,algolia.net
+DOMAIN-SUFFIX,stripecdn.com
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-KEYWORD,nyaa
+DOMAIN-SUFFIX,okx.com
+DOMAIN-SUFFIX,recaptcha.net
+DOMAIN-SUFFIX,readmoo.com
+DOMAIN-SUFFIX,sda1.dev
+
 
 
 
