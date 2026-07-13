@@ -58,6 +58,7 @@ PROCESS-NAME,ToDesk
 PROCESS-NAME,maps
 PROCESS-NAME,*UU远程.*
 PROCESS-NAME,*i4Remote.*
+PROCESS-NAME,*千牛.*
 
 ## Windows Process
 PROCESS-NAME,wechat.exe
